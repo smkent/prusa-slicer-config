@@ -1,7 +1,7 @@
-# prusa-slicer-config
-
 These are my [PrusaSlicer][prusaslicer] profiles and settings for the
 [Sovol SV06 Plus][sovol-sv06-plus].
+
+# Usage
 
 This repository is meant to be cloned into PrusaSlicer's configuration folder.
 This folder's location varies by operating system:
@@ -14,6 +14,13 @@ You can also check the location of this folder using PrusaSlicer's **Help** -> *
 Configuration Folder** option:
 
 ![PrusaSlicer menu screenshot of Show Configuration Folder option](.smkent/screenshot-help-conf-folder.png)
+
+# Sovol SV06 Plus profile
+
+PrusaSlicer includes a built-in Sovol SV06 Plus printer profile.
+
+My Sovol SV06 Plus printer profile is based on the built-in profile with a
+different bed mesh and texture.
 
 # Attribution and License
 
