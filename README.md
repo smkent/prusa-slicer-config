@@ -19,8 +19,25 @@ Configuration Folder** option:
 
 PrusaSlicer includes a built-in Sovol SV06 Plus printer profile.
 
-My Sovol SV06 Plus printer profile is based on the built-in profile with a
-different bed mesh and texture.
+My Sovol SV06 Plus printer profile is based on the built-in profile with custom
+start and end G-code, plus a different bed mesh and texture.
+
+## G-code customizations
+
+Start G-code:
+
+* Heat the bed to 5°C below the target bed temperature before heating the
+  nozzle.
+* Draw the purge line just outside the print area along the X-axis (the built-in
+  profile draws the purge line within the print area along the Y-axis), like the
+  Prusa MK3S+ built-in profile. I randomized the purge line position
+  along the X-axis to prevent wear on a single spot.
+
+End G-code:
+
+* Raise the Z-axis higher than the default profile does, along with a small
+  filament retraction.
+* Stop heating the nozzle and bed before turning off the fan.
 
 # Attribution and License
 
