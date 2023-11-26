@@ -19,8 +19,18 @@ Configuration Folder** option:
 
 PrusaSlicer includes a built-in Sovol SV06 Plus printer profile.
 
-My Sovol SV06 Plus printer profile is based on the built-in profile with custom
-start and end G-code, plus a different bed mesh and texture.
+My Sovol SV06 Plus printer profile is based on the built-in profile with the
+following changes:
+
+* Modified retraction settings (**Printer Settings** -> **Extruder 1** ->
+  **Retraction**)
+  * Minimum travel after retraction: **2** (default 0.5)
+  * **Wipe while retracting**: Disabled (default: enabled)
+* Custom start and end G-code (See below)
+* A different [bed mesh](printer/beds/sovol-sv06-plus-model.stl)
+  and [texture](printer/beds/sovol-sv06-plus-texture-white-logo.png)
+
+![PrusaSlicer retraction settings changes screenshot](.smkent/screenshot-printer-extruder-retraction-settings.png)
 
 ## G-code customizations
 
