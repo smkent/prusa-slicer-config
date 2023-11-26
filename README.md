@@ -30,6 +30,8 @@ following changes:
 * A different [bed mesh](printer/beds/sovol-sv06-plus-model.stl)
   and [texture](printer/beds/sovol-sv06-plus-texture-white-logo.png)
 
+## Retraction settings screenshot
+
 ![PrusaSlicer retraction settings changes screenshot](.smkent/screenshot-printer-extruder-retraction-settings.png)
 
 ## G-code customizations
